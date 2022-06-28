@@ -1,0 +1,317 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+.reg
+{
+	display: flex;
+	height:100%;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+	background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+}
+.reg_container
+{
+	max-width:500px;
+	width:100%;
+	background: #fff;
+	padding:25px 30px;
+	border-radius:5px;
+}
+.reg_container .reg_title
+{
+	font-size:25px;
+	font-weight:500;
+	position:relative;
+	text-align: center;
+}
+.reg_container .reg_title::before
+{
+	content:'';
+	position:absolute;
+	left:200px;
+	bottom:0;
+	height:3px;
+	width:30px;
+	background-image: linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+}
+.reg_container form .user-details
+{
+	justify-content: space-between;
+	margin:20px 0px 12px 0;
+}
+
+form .user-details .input-box
+{
+	width: calc(100% - 20px);
+	margin-bottom:15px;
+}
+.user-details .input-box .details{
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.user-details .input-box input{
+	height:45px;
+	width:100%;
+	outline: none;
+	border-radius:5px;
+	border:1px solid #ccc;
+	padding-left: 15px;
+	font-size:16px;	
+	border-bottom-width: 2px;
+	transition:all 0.3s ease;
+}
+
+.user-details .input-box input:focus{
+	border-color: #9452A5;
+}
+
+form .button{
+	height : 45px;
+	margin:45px 0;
+}
+
+form .button button
+{
+	height:100%;
+	width:100%;
+	outline:none;
+	color:black;
+	background:linear-gradient( 135deg, #FFF5C3 10%, #9452A5 100%);
+	border:none;
+	font-size:18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+
+form .button button:hover{
+	background:linear-gradient(-135deg, #FFF5C3 10%, #9452A5 100%);
+}
+
+.register
+{
+	text-align: center;
+}
+.content img
+{
+	
+	padding: 0 0 30px;
+	width:100%;
+}
+
+.container h1
+{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.content h3
+{
+	text-align: center;
+	padding: 5px 0 0 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+}
+
+.content p
+{
+	padding:30px 0 40px 0;
+	text-align: justify;
+  	text-justify: inter-word;
+	font-size: 16px;
+}
+.navbar
+{
+	display: flex;
+	align-items: center;
+	padding:20px;
+}
+nav
+{
+	flex : 1;
+	text-align: right;
+}
+nav ul
+{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right:20px;
+}
+a
+{
+	text-decoration: none;
+	color:#555;
+}
+p
+{
+	color : #555;
+}
+
+.container{
+	max-width: 1300px;
+	margin:auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row
+{
+	display: flex;
+	align-items: center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color : #fff;
+	padding:8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.btn:hover
+{
+	background: #563434;
+}
+.header
+{
+	background: radial-gradient(#ddd,#ffd6d6)
+}
+.header .row
+{
+	margin-top: 70px;
+}
+
+.small-container{
+	max-width:1080px;
+	margin:auto;
+	margin-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	overflow:hidden;
+}
+.col-3
+{
+	flex-basis: 33.3%;
+	padding:10px;
+	margin-bottom: 40px;
+	transition: transform 0.5s;
+}
+.col-3 img
+{
+	width:100%;
+}
+
+.title
+{
+	text-align: center;
+	margin: 0 auto 40px;
+	position: relative;
+	line-height: 60px;
+	color:#555;
+}
+
+h1
+{
+	text-align: center;
+	color:black;
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+}
+.col-3:hover
+{
+	transform: translateY(-5px);
+}
+
+.title::after
+{
+	content: '';
+	background: #ff523b;
+	width:80px;
+	height:5px;
+	border-radius:5px;
+	position: absolute;
+	top:220px;
+	left:50%;
+	transform: translateX(-50%);
+}
+h4
+{
+	color:#555;
+	font-weight: normal;
+}
+
+.footer{
+	background:#000;
+	color:#8a8a8a;
+	font-size:14px;
+	padding:60px 0 20px;
+}
+.footer p
+{
+	color : #8a8a8a;
+}
+
+.footer h3
+{
+	color:#fff;
+	margin-bottom:20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3
+{
+	min-width : 250px;
+	margin-bottom: 20px;
+}
+
+.footer-col-1{
+	flex-basis:20%;
+	text-align: center;
+}
+
+.footer-col-2{
+	flex:1;
+	text-align: center;
+}
+.footer-col-2 img{
+	width:180px;
+	margin-bottom:20px;
+}
+.footer-col-3{
+	flex-basis:12%;
+	text-align:center;
+}
+ul
+{
+	list-style-type:none;
+}
+.footer a
+{
+	color:#8a8a8a;
+}
+.footer li
+{
+	padding: 5px;
+}
+.footer hr
+{
+	border: none;
+	background: #b5b5b5;
+	height:1px;
+	margin:20px 0;
+}
+.copyright{
+	text-align: center;
+}
